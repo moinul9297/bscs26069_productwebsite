@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafaf8; /* Light background */
+    color: #212529;            /* Dark, readable text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Bold Headings */
+h1, h2, h3 {
+    font-weight: 700;
+    color: #0f172a;
+}
+
+/* 2. Spacing (Margins and Padding) */
+section {
+    padding: 40px 20px;       /* Spacing inside sections */
+    margin-bottom: 20px;      /* Spacing between sections */
+}
+
+/* Navbar styling with hover effects */
+header {
+    background-color: #edae8e;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 3. Hover Effects on Links/Buttons */
+nav a {
+    color: #333333;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+/* Link Hover Effect */
+nav a:hover {
+    color: #ffbf34;           /* Changes text color on hover */
+    border-bottom: 2px solid #fd0000;
+}
+
+/* Button Styling with Hover Effect */
+button, .cta-button {
+    background-color: #73eaffeb; /* Primary button color */
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Hover Effect */
+button:hover, .cta-button:hover {
+    background-color: #fb00ff;
+    transform: translateY(-9px);
+}
